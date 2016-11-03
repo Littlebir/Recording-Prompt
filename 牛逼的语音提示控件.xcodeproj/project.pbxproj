@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26EADFFA1DC860E7008B895F /* RecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EADFF91DC860E7008B895F /* RecordButton.m */; };
+		26EADFFD1DC86CCA008B895F /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26EADFFC1DC86CCA008B895F /* libmp3lame.a */; };
+		26EAE0001DC86D06008B895F /* RecordMp3.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EADFFF1DC86D06008B895F /* RecordMp3.m */; };
+		26FF70291DB9EFC1003196EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FF70281DB9EFC1003196EB /* main.m */; };
+		26FF702C1DB9EFC1003196EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FF702B1DB9EFC1003196EB /* AppDelegate.m */; };
+		26FF702F1DB9EFC1003196EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FF702E1DB9EFC1003196EB /* ViewController.m */; };
+		26FF70321DB9EFC1003196EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FF70301DB9EFC1003196EB /* Main.storyboard */; };
+		26FF70351DB9EFC1003196EB /* _________.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26FF70331DB9EFC1003196EB /* _________.xcdatamodeld */; };
+		26FF70371DB9EFC1003196EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FF70361DB9EFC1003196EB /* Assets.xcassets */; };
+		26FF703A1DB9EFC1003196EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FF70381DB9EFC1003196EB /* LaunchScreen.storyboard */; };
+		26FF70431DB9F075003196EB /* RecordHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 26FF70421DB9F075003196EB /* RecordHUD.m */; };
+		26FF704C1DB9F0B9003196EB /* mic_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FF70451DB9F0B9003196EB /* mic_0.png */; };
+		26FF704D1DB9F0B9003196EB /* mic_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FF70461DB9F0B9003196EB /* mic_1.png */; };
+		26FF704E1DB9F0B9003196EB /* mic_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FF70471DB9F0B9003196EB /* mic_2.png */; };
+		26FF704F1DB9F0B9003196EB /* mic_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FF70481DB9F0B9003196EB /* mic_3.png */; };
+		26FF70501DB9F0B9003196EB /* mic_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FF70491DB9F0B9003196EB /* mic_4.png */; };
+		26FF70511DB9F0B9003196EB /* mic_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FF704A1DB9F0B9003196EB /* mic_5.png */; };
+		26FF70521DB9F0B9003196EB /* mic_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 26FF704B1DB9F0B9003196EB /* mic_cancel.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26EADFF81DC860E7008B895F /* RecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordButton.h; sourceTree = "<group>"; };
+		26EADFF91DC860E7008B895F /* RecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordButton.m; sourceTree = "<group>"; };
+		26EADFFB1DC86CCA008B895F /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		26EADFFC1DC86CCA008B895F /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		26EADFFE1DC86D06008B895F /* RecordMp3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordMp3.h; sourceTree = "<group>"; };
+		26EADFFF1DC86D06008B895F /* RecordMp3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordMp3.m; sourceTree = "<group>"; };
+		26FF70241DB9EFC1003196EB /* 牛逼的语音提示控件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "牛逼的语音提示控件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26FF70281DB9EFC1003196EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26FF702A1DB9EFC1003196EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		26FF702B1DB9EFC1003196EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		26FF702D1DB9EFC1003196EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		26FF702E1DB9EFC1003196EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		26FF70311DB9EFC1003196EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26FF70341DB9EFC1003196EB /* _________.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_________.xcdatamodel"; sourceTree = "<group>"; };
+		26FF70361DB9EFC1003196EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26FF70391DB9EFC1003196EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26FF703B1DB9EFC1003196EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FF70411DB9F075003196EB /* RecordHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordHUD.h; sourceTree = "<group>"; };
+		26FF70421DB9F075003196EB /* RecordHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordHUD.m; sourceTree = "<group>"; };
+		26FF70451DB9F0B9003196EB /* mic_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_0.png; sourceTree = "<group>"; };
+		26FF70461DB9F0B9003196EB /* mic_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_1.png; sourceTree = "<group>"; };
+		26FF70471DB9F0B9003196EB /* mic_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_2.png; sourceTree = "<group>"; };
+		26FF70481DB9F0B9003196EB /* mic_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_3.png; sourceTree = "<group>"; };
+		26FF70491DB9F0B9003196EB /* mic_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_4.png; sourceTree = "<group>"; };
+		26FF704A1DB9F0B9003196EB /* mic_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_5.png; sourceTree = "<group>"; };
+		26FF704B1DB9F0B9003196EB /* mic_cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_cancel.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26FF70211DB9EFC1003196EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EADFFD1DC86CCA008B895F /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26FF701B1DB9EFC1003196EB = {
+			isa = PBXGroup;
+			children = (
+				26FF70261DB9EFC1003196EB /* 牛逼的语音提示控件 */,
+				26FF70251DB9EFC1003196EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26FF70251DB9EFC1003196EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26FF70241DB9EFC1003196EB /* 牛逼的语音提示控件.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26FF70261DB9EFC1003196EB /* 牛逼的语音提示控件 */ = {
+			isa = PBXGroup;
+			children = (
+				26FF70441DB9F0B9003196EB /* imgs */,
+				26FF702A1DB9EFC1003196EB /* AppDelegate.h */,
+				26FF702B1DB9EFC1003196EB /* AppDelegate.m */,
+				26FF702D1DB9EFC1003196EB /* ViewController.h */,
+				26FF702E1DB9EFC1003196EB /* ViewController.m */,
+				26FF70411DB9F075003196EB /* RecordHUD.h */,
+				26FF70421DB9F075003196EB /* RecordHUD.m */,
+				26EADFF81DC860E7008B895F /* RecordButton.h */,
+				26EADFF91DC860E7008B895F /* RecordButton.m */,
+				26EADFFB1DC86CCA008B895F /* lame.h */,
+				26EADFFC1DC86CCA008B895F /* libmp3lame.a */,
+				26EADFFE1DC86D06008B895F /* RecordMp3.h */,
+				26EADFFF1DC86D06008B895F /* RecordMp3.m */,
+				26FF70301DB9EFC1003196EB /* Main.storyboard */,
+				26FF70361DB9EFC1003196EB /* Assets.xcassets */,
+				26FF70381DB9EFC1003196EB /* LaunchScreen.storyboard */,
+				26FF703B1DB9EFC1003196EB /* Info.plist */,
+				26FF70331DB9EFC1003196EB /* _________.xcdatamodeld */,
+				26FF70271DB9EFC1003196EB /* Supporting Files */,
+			);
+			path = "牛逼的语音提示控件";
+			sourceTree = "<group>";
+		};
+		26FF70271DB9EFC1003196EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26FF70281DB9EFC1003196EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26FF70441DB9F0B9003196EB /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				26FF70451DB9F0B9003196EB /* mic_0.png */,
+				26FF70461DB9F0B9003196EB /* mic_1.png */,
+				26FF70471DB9F0B9003196EB /* mic_2.png */,
+				26FF70481DB9F0B9003196EB /* mic_3.png */,
+				26FF70491DB9F0B9003196EB /* mic_4.png */,
+				26FF704A1DB9F0B9003196EB /* mic_5.png */,
+				26FF704B1DB9F0B9003196EB /* mic_cancel.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26FF70231DB9EFC1003196EB /* 牛逼的语音提示控件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26FF703E1DB9EFC1003196EB /* Build configuration list for PBXNativeTarget "牛逼的语音提示控件" */;
+			buildPhases = (
+				26FF70201DB9EFC1003196EB /* Sources */,
+				26FF70211DB9EFC1003196EB /* Frameworks */,
+				26FF70221DB9EFC1003196EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "牛逼的语音提示控件";
+			productName = "牛逼的语音提示控件";
+			productReference = 26FF70241DB9EFC1003196EB /* 牛逼的语音提示控件.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26FF701C1DB9EFC1003196EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "三";
+				TargetAttributes = {
+					26FF70231DB9EFC1003196EB = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 26FF701F1DB9EFC1003196EB /* Build configuration list for PBXProject "牛逼的语音提示控件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26FF701B1DB9EFC1003196EB;
+			productRefGroup = 26FF70251DB9EFC1003196EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26FF70231DB9EFC1003196EB /* 牛逼的语音提示控件 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26FF70221DB9EFC1003196EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26FF70501DB9F0B9003196EB /* mic_4.png in Resources */,
+				26FF704F1DB9F0B9003196EB /* mic_3.png in Resources */,
+				26FF70511DB9F0B9003196EB /* mic_5.png in Resources */,
+				26FF704D1DB9F0B9003196EB /* mic_1.png in Resources */,
+				26FF704C1DB9F0B9003196EB /* mic_0.png in Resources */,
+				26FF70521DB9F0B9003196EB /* mic_cancel.png in Resources */,
+				26FF704E1DB9F0B9003196EB /* mic_2.png in Resources */,
+				26FF703A1DB9EFC1003196EB /* LaunchScreen.storyboard in Resources */,
+				26FF70371DB9EFC1003196EB /* Assets.xcassets in Resources */,
+				26FF70321DB9EFC1003196EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26FF70201DB9EFC1003196EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EADFFA1DC860E7008B895F /* RecordButton.m in Sources */,
+				26FF702F1DB9EFC1003196EB /* ViewController.m in Sources */,
+				26FF70351DB9EFC1003196EB /* _________.xcdatamodeld in Sources */,
+				26FF702C1DB9EFC1003196EB /* AppDelegate.m in Sources */,
+				26FF70431DB9F075003196EB /* RecordHUD.m in Sources */,
+				26FF70291DB9EFC1003196EB /* main.m in Sources */,
+				26EAE0001DC86D06008B895F /* RecordMp3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26FF70301DB9EFC1003196EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FF70311DB9EFC1003196EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26FF70381DB9EFC1003196EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26FF70391DB9EFC1003196EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26FF703C1DB9EFC1003196EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26FF703D1DB9EFC1003196EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26FF703F1DB9EFC1003196EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "牛逼的语音提示控件/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/牛逼的语音提示控件",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.sanmiao.com.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26FF70401DB9EFC1003196EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "牛逼的语音提示控件/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/牛逼的语音提示控件",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "www.sanmiao.com.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26FF701F1DB9EFC1003196EB /* Build configuration list for PBXProject "牛逼的语音提示控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FF703C1DB9EFC1003196EB /* Debug */,
+				26FF703D1DB9EFC1003196EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26FF703E1DB9EFC1003196EB /* Build configuration list for PBXNativeTarget "牛逼的语音提示控件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FF703F1DB9EFC1003196EB /* Debug */,
+				26FF70401DB9EFC1003196EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26FF70331DB9EFC1003196EB /* _________.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26FF70341DB9EFC1003196EB /* _________.xcdatamodel */,
+			);
+			currentVersion = 26FF70341DB9EFC1003196EB /* _________.xcdatamodel */;
+			path = "_________.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26FF701C1DB9EFC1003196EB /* Project object */;
+}
